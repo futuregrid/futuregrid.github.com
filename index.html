@@ -1,46 +1,175 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+<meta charset="utf-8">  
+<title>FutureGrid Dev</title>  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<meta name="description" content="Example of Fixed Layout with Twitter Bootstrap version 2.0 from w3resource.com">  
+<meta name="author" content="">  
+<!-- Le styles -->  
+<link href="_static/bootstrap/css/bootstrap.css" rel="stylesheet">  
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Futuregrid.github.com : " />
+<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->  
+<!--[if lt IE 9]>  
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>  
+<![endif]-->  
+<!-- Le fav and touch icons -->  
+<link rel="shortcut icon" href="_static/bootstrap/images/favicon.ico">  
+<link rel="apple-touch-icon" href="_static/fg-logo-white-24x36.png">  
+</head>  
+<body>  
+<div class="navbar navbar-inverse navbar-fixed-top">  
+<div class="navbar-inner">  
+<div class="container">  
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">  
+<span class="icon-bar"></span>  
+<span class="icon-bar"></span>  
+<span class="icon-bar"></span>  
+</a>  
+<a class="brand" href="#"><img src="_static/fg-logo-white-24x36.png" alt="FG" /></a>  
+<div class="nav-collapse">  
+<ul class="nav">  
+<li class="active"><a href="#">FutureGrid Dev</a></li>  
+<!--
+<li><a href="about.html">About</a></li>  
+<li><a href="contact.html">Contact</a></li>  
+-->
+</ul>  
+</div><!--/.nav-collapse -->  
+</div>  
+</div>  
+</div>  
+<div class="container">  
+<!-- Main hero unit for a primary marketing message or call to action -->  
+<div class="leaderboard">  
+<p>&nsbp.</p>
+<p>&nsbp.</p>
+<h1>Development Projects</h1>  
+<p>
+We are working on a number of devellopment projects. Instead of just providing a single project, we decided to split the development up in some smaller subproject. This allows the groups to work independently from each other and avoids the problem that a compile error in one code causes an issue in another. All projects listed her are managed in github.</p
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+</div>  
 
-    <title>Futuregrid.github.com</title>
-  </head>
+<!-- ROW  --> 
 
-  <body>
+<div class="row">  
+<div class="span4">  
+<h2>Rain</h2>  
+<p>
+A project to do bare metal and VM based dynamic provisioning for a HPC cluster, OpenStack, Eucalyptus, Nimbus, ... . 
+</p>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/futuregrid">View on GitHub</a>
+<img  src = "_static/rain.png">
 
-          <h1 id="project_title">Futuregrid.github.com</h1>
-          <h2 id="project_tagline"></h2>
+<p><a class="btn btn-info btn-small" href="http://futuregrid.github.com/rain">View</a>&nbsp 
+<a class="btn btn btn-small" href="https://github.com/futuregrid/rain">Git</a></p>  
+</div>  
+<div class="span4">  
+<h2>Cloud Mesh</h2>  
+<p>A project to interface easily with multiple clouds from the command line and a command shell.</p>
 
-        </header>
-    </div>
+<img  src = "_static/cloudmesh.png">
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <p>please visit</p>
+<p><a class="btn btn-info btn-small" href="http://futuregrid.github.com/flask_cm/">View</a>&nbsp <a class="btn btn btn-small" href="http://futuregrid.github.com/flask_cm/">Git</a></p>  
+</div>  
+<div class="span4">  
+<h2>Cloud Metrics</h2>  
+<p>
+A project to measure and display metric information about usage and utilization of your cloud.</p>
 
-<p><a href="http://futuregrid.github.com/doc">http://futuregrid.github.com/doc</a></p>
-      </section>
-    </div>
+<img  src = "_static/metric.png">
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+<p><a class="btn btn-info btn-small" href="http://futuregrid.github.com/cloud-metrics">View</a>&nbsp 
+<a class="btn btn btn-small" href="https://github.com/futuregrid/cloud-metrics">Git</a> &nbsp 
+<a class="btn btn btn-small" href="https://portal.futuregrid.org/doc/metric/index.html">Example</a></p>  
+</div>  
+</div>  
+<hr>  
+<!-- FOOTER  --> 
+<div class="row">  
+<div class="span4">  
+<h2>Teefaa</h2>  
+<p>A project to dynamically provision operating systems.</p>
 
-    
+<img  src = "_static/vcluster.png">
 
-  </body>
-</html>
+<p><a class="btn btn-info btn-small" href="http://futuregrid.github.com/teefaa">View</a>&nbsp <a class="btn btn btn-small" href="https://github.com/futuregrid/teefaa">Git</a></p>  
+</div>  
+<div class="span4">  
+<h2>Cloud Cluster</h2>  
+<p>A project to create a SLURM based cluster in your cloud and run MPI jobs on it.</p>
+
+<img  src = "_static/vcluster.png">
+
+<p><a class="btn btn-info btn-small" href="http://futuregrid.github.com/virtual-cluster">View</a>&nbsp <a class="btn btn btn-small" href="https://github.com/futuregrid/virtual-cluster">Git</a></p>  
+</div>  
+<div class="span4">  
+<h2>Cloud Inventory</h2>  
+<p>A project to create simple inventory for dynamic provisioned Cloud and HPC resources.</p>
+
+<img  src = "_static/inventory.png">
+
+<p><a class="btn btn-info btn-small" href="http://futuregrid.github.com/inventory">View</a>&nbsp <a class="btn btn btn-small" href="https://github.com/futuregrid/inventory">Git</a></p>  
+</div>  
+</div>  
+<hr>  
+<!-- ROW  -->
+<div class="row">  
+<div class="span4">  
+<h2>FG Portal</h2>  
+<p>
+A project to do develop a portal for the project
+</p>
+
+<img  src = "_static/portal.png">
+
+<p><a class="btn btn-info btn-small" href="http://futuregrid.github.com/rain">View</a>&nbsp 
+<a class="btn btn btn-small" href="https://github.com/futuregrid/rain">Git</a></p>  
+</div>  
+<div class="span4">  
+<h2>FG Statistics</h2>  
+<p>A project to analyse the users demand.
+
+
+
+
+
+<img  src = "_static/statistics.png">
+
+<p><a class="btn btn-info btn-small" href="http://futuregrid.github.com/flask_cm/">View</a>&nbsp <a class="btn btn btn-small" href="http://futuregrid.github.com/flask_cm/">Git</a></p>  
+</div>  
+<div class="span4">  
+<h2> Github </h2>  
+<p>
+Our projects are managed on Github. </p>
+
+<img  src = "_static/github.png">
+
+<p><a class="btn btn-info btn-small" href="http://futuregrid.github.com/">View</a>&nbsp 
+<a class="btn btn btn-small" href="https://github.com/futuregrid/">Git</a> &nbsp 
+</div>  
+</div>  
+<hr> 
+<!-- FOOTER  --> 
+<footer>  
+<p>© Developed for FutureGrid by Gregor von Laszewski 2013, &nbsp  <a class="btn btn btn-small" href="https://github.com/futuregrid/futuregrid.github.com">Git</a> 
+</footer>  
+</div> <!-- /container -->  
+<!-- Le javascript  
+================================================== -->  
+<!-- Placed at the end of the document so the pages load faster -->  
+<script src="twitter-bootstrap-v2/docs/assets/js/jquery.js"></script>  
+<script src="twitter-bootstrap-v2/docs/assets/js/bootstrap-transition.js"></script>  
+<script src="twitter-bootstrap-v2/docs/assets/js/bootstrap-alert.js"></script>  
+<script src="twitter-bootstrap-v2/docs/assets/js/bootstrap-modal.js"></script>  
+<script src="twitter-bootstrap-v2/docs/assets/js/bootstrap-dropdown.js"></script>  
+<script src="twitter-bootstrap-v2/docs/assets/js/bootstrap-scrollspy.js"></script>  
+<script src="twitter-bootstrap-v2/docs/assets/js/bootstrap-tab.js"></script>  
+<script src="twitter-bootstrap-v2/docs/assets/js/bootstrap-tooltip.js"></script>  
+<script src="twitter-bootstrap-v2/docs/assets/js/bootstrap-popover.js"></script>  
+<script src="twitter-bootstrap-v2/docs/assets/js/bootstrap-button.js"></script>  
+<script src="twitter-bootstrap-v2/docs/assets/js/bootstrap-collapse.js"></script>  
+<script src="twitter-bootstrap-v2/docs/assets/js/bootstrap-carousel.js"></script>  
+<script src="twitter-bootstrap-v2/docs/assets/js/bootstrap-typeahead.js"></script>  
+</body>  
+</html>  
